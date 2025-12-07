@@ -42,7 +42,7 @@ public class Matrix {
 
 
 
-
+    // Time Complexity: O(N * M) - iterating through all elements once.
     public void print(){
         for(int i = 0; i < rows; i++){
             for(int j = 0; j < cols; j++){
@@ -53,7 +53,7 @@ public class Matrix {
 
 
     }
-
+    // Time Complexity: O(N * M) - we visit each element exactly once to swap indices.
     public Matrix transpose(){
         Matrix transposed =  new Matrix(rows, cols);
         for(int i = 0; i < rows; i++){
@@ -64,7 +64,7 @@ public class Matrix {
         return transposed;
     }
 
-
+    // Time Complexity: O(N * M) - every element is visited exactly once.
     public void printSpiral(){
         int top = 0;
         int bottom = rows - 1;
@@ -101,7 +101,7 @@ public class Matrix {
         }
         System.out.println();
     }
-
+    // Time Complexity: O(N * M * P)
     public Matrix multiply(Matrix other){
 
         if (this.cols != other.getRows()) {
