@@ -21,10 +21,10 @@ public class Circle {
 
 
         public double calculateArea(){
-            return 0;
+            return Math.PI * Math.pow(radius, 2);
         }
         public double calculateCircumference(){
-            return 0;
+            return 2*Math.PI * radius;
         }
 
 
