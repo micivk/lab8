@@ -17,4 +17,15 @@ public class Circle {
         public void setRadius(double radius) {
             this.radius = radius;
         }
+
+
+
+        public double calculateArea(){
+            return 0;
+        }
+        public double calculateCircumference(){
+            return 0;
+        }
+
+
 }

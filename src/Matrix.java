@@ -11,7 +11,7 @@ public class Matrix {
         this.data = new double[rows][cols];
     }
 
-    //Getters for dimensions
+    //Getters and setters
     public int getRows() {
         return rows;
     }
@@ -26,5 +26,35 @@ public class Matrix {
     public void setValue(int r, int c, double value){
         data[r][c] = value;
     }
+
+
+    public void fillWithRandomValues(){
+
+    }
+
+
+    public void print(){
+
+    }
+
+    public Matrix transpose(){
+        return null;
+    }
+
+
+    public void printSpiral(){
+
+    }
+
+    public Matrix multiply(Matrix other){
+        return null;
+    }
+
+
+
+
+
+
+
 
 }

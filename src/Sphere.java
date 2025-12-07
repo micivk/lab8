@@ -15,4 +15,14 @@ public class Sphere {
 
 
 
+    public double calculateVolume(){
+        return 0;
+    }
+
+    public double calculateSurfaceArea(){
+        return 0;
+    }
+
+
+
 }
