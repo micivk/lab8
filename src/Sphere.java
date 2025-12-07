@@ -16,11 +16,11 @@ public class Sphere {
 
 
     public double calculateVolume(){
-        return 0;
+        return (4.0/3.0)*Math.PI*Math.pow(radius,3);
     }
 
     public double calculateSurfaceArea(){
-        return 0;
+        return 4*Math.PI*Math.pow(radius,2);
     }
 
 
